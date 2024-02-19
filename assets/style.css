@@ -1,0 +1,1052 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #fff;
+}
+
+header {
+    background-color: #000;
+    box-shadow: 0px 3px 10px #464646;
+	height: 250px;
+	border-radius: 1px ;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+#logo {
+	margin-top: 30px;
+	margin-left: 300px;
+	width: 10%;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+	margin-right: 400px;
+	margin-top: 35px;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 55px;
+	margin: 0 0 1em;
+	clear: left;
+	font-weight: bold;
+}
+
+.principal {
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 57px;
+	font-size: 22px;
+}
+
+#pfts {
+	width: 35%;
+	float: left;
+	margin: 0 20px 20px 0;
+	border-radius: 3px;
+	transition: 1ms;
+}
+
+#mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+
+/* TESTE PRO CTT*/
+
+#barbers {
+	width: 80%;
+}
+
+.barbeirosc {
+	display: flex;
+}
+
+.barbeirosc li {
+    text-align: center;
+}
+
+.barbeirosc li a {
+	text-decoration: none;
+	color: #000;
+}
+
+.galeriasfts {
+  	width: 80%;
+    border-radius: 10px;
+}
+
+.nbarbers {
+	font-size: 60px;
+}
+
+/* TESTE PRO CTT */
+
+#atendimento {
+	height: 600px;
+}
+
+#atendt {
+	text-align: center;
+	font-size: 55px;
+	font-weight: bold;
+}
+
+.atendh {
+	text-align: center;
+}
+
+.atendp {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#atendimento p {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#precos {
+	width: 35%;
+	float: right;
+	border-radius: 3px;
+	transition: 1ms;
+}
+
+footer {
+	background: #000;
+	padding: 20px 0;
+	box-shadow: 0px 3px 10px #464646;
+}
+
+@media screen and (max-width: 1500px) {
+
+	#logo {
+		margin-top: 50px;
+		margin-left: 300px;
+	}
+
+	.nav-list {
+		margin-right: 200px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+
+	#logo {
+		margin-top: 70px;
+		margin-left: 200px;
+	}
+
+	.nav-list {
+		margin-right: 150px;
+		margin-top: 75px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+
+	#logo {
+		margin-top: 70px;
+		margin-left: 150px;
+	}
+
+	.nav-list {
+		margin-right: 100px;
+		margin-top: 75px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+
+	#logo {
+		margin-top: 40px;
+		margin-left: 50px;
+		width: 30%;
+	}
+
+	.nav-list {
+		margin-right: 50px;
+		margin-top: 55px;
+	}
+
+	.nav-link {
+		font-size: 18px;
+	}
+
+	.principal {
+		width: 80%;
+	}
+
+	.titulo-principal {
+		font-size: 35px;
+	}
+
+	#inicio1 {
+		height: 350px;
+	}
+
+	#barbers {
+		height: 430px;
+	}
+
+	#mapa {
+		height: 450px;
+	}
+
+	#inicio1 p, #mapa p {
+		font-size: 16px;
+	}
+
+	#atendimento {
+		height: 450px;
+	}
+
+	#atendt {
+		font-size: 35px;
+	}
+
+	.galeriasfts {
+		width: 90%;
+  	}
+
+	.nbarbers {
+		font-size: 20px;
+	}
+
+	.atendt, .atendh, .atendp {
+		text-align: center;
+	}
+
+	.atendp {
+		font-size: 20px
+	}
+
+	#precos {
+		margin-left: 30px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+
+	#logo {
+		margin-top: 40px;
+		margin-left: 25px;
+	}
+
+	.nav-list {
+		margin-right: 25px;
+	}
+
+	.titulo-principal {
+		font-size: 25px;
+	}
+
+	#inicio1 {
+		height: 300px;
+	}
+
+	#barbers {
+		height: 400px;
+	}
+
+	#atendimento {
+		height: 380px;
+	}
+
+	#mapa {
+		height: 400px;
+	}
+
+	#inicio1 p, #mapa p {
+		font-size: 14px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	#logo {
+		margin-top: 40px;
+		margin-left: 25px;
+	}
+
+	.nav-list {
+		margin-right: 25px;
+	}
+
+	.nav-link {
+		font-size: 14px;
+	}
+
+	.titulo-principal {
+		font-size: 25px;
+	}
+
+	.principal p {
+		margin: 0 0 15px;
+		font-size: 22px;
+	}
+
+	#inicio1 {
+		height: 300px;
+	}
+
+	#mapa {
+		height: 400px;
+	}
+
+	#inicio1 p, #mapa p {
+		font-size: 15px;
+	}
+	
+}
+
+@media screen and (max-width: 700px) {
+
+	#logo {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	.nav-list {
+		margin-right: 25px;
+	}
+
+	.nav-link {
+		font-size: 14px;
+	}
+
+	.titulo-principal {
+		font-size: 25px;
+	}
+
+	.principal p {
+		margin: 0 0 0px;
+	}
+
+	#inicio1 {
+		height: 250px;
+	}
+
+	#mapa {
+		height: 400px;
+	}
+
+	#inicio1 p, #mapa p {
+		font-size: 13.8px;
+	}
+
+	.atendh {
+		margin-bottom: 35px;
+	}
+	
+}
+
+@media screen and (max-width: 650px) {
+
+	header {
+		height: 200px;
+	}
+
+	#logo {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	.nav-list {
+		margin-right: 0px;
+	}
+
+	.nav-link {
+		font-size: 13px;
+	}
+
+	.titulo-principal {
+		font-size: 25px;
+	}
+
+	.principal p {
+		margin: 0 0 0px;
+	}
+
+	#inicio1 {
+		height: 200px;
+	}
+
+	#barbers {
+		height: 350px;
+	}
+
+	#mapa {
+		height: 300px;
+	}
+
+	#inicio1 p, #mapa p {
+		font-size: 12px;
+	}
+
+	.itens {
+		font-size: 10px;
+	}
+
+	#atendt {
+		font-size: 25px;
+	}
+
+	.atendh {
+		text-align: center;
+		font-size: 13;
+	}
+	
+	.atendp {
+		text-align: center;
+		font-size: 15px;
+		font-weight: bold;
+		
+	}
+	
+	#precos {
+		width:40%;
+		float: right;
+		border-radius: 3px;
+		transition: 1ms;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	header {
+		height: 150px;
+	}
+
+	#logo {
+		width: 30%;
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+
+	.nav-list {
+		display: none;
+	}
+
+	.nav-link {
+		font-size: 9px;
+	}
+
+	.titulo-principal {
+		font-size: 20px;
+	}
+
+	.principal p {
+		margin: 0 0 0px;
+	}
+
+	.apagar {
+		opacity: 0;
+		display: block;
+		display: none;
+	}
+
+	#inicio1 {
+		height: 150px;
+		margin-top: -10px;
+	}
+
+	#barbers {
+		height: 270px;
+	}
+
+	#atendimento {
+		height: 320px;
+	}
+
+	.atendh {
+		font-size: 12px;
+	}
+
+	#mapa {
+		height: 400px;
+	}
+
+	#inicio1 p, #mapa p {
+		font-size: 12px;
+	}
+
+}
+
+@media screen and (max-width: 520px) {
+
+	header {
+		height: 150px;
+	}
+
+	#logo {
+		width: 30%;
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+
+	.nav-list {
+		display: none;
+	}
+
+	.nav-link {
+		font-size: 9px;
+	}
+
+	.titulo-principal, #atendt {
+		font-size: 18px;
+	}
+
+	.principal p {
+		margin: 0 0 0px;
+	}
+
+	.apagar {
+		opacity: 0;
+		display: block;
+		display: none;
+	}
+
+	#inicio1 {
+		height: 100px;
+		width: 90%;
+		margin-top: -10px;
+	}
+
+	#barbers {
+		height: 220px;
+	}
+
+	#atendimento {
+		height: 250px;
+	}
+
+	.atendh {
+		font-size: 12px;
+	}
+
+	.atendp {
+		font-size: 13px;
+	}
+
+	#mapa {
+		height: 400px;
+	}
+
+	#inicio1 p, #mapa p {
+		font-size: 12px;
+	}
+
+}
+
+@media screen and (max-width: 450px) {
+
+	header {
+		height: 100px;
+	}
+
+	#logo {
+		width: 30%;
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+
+	.nav-list {
+		display: none;
+	}
+
+	.nav-link {
+		font-size: 9px;
+	}
+
+	.titulo-principal, #atendt {
+		font-size: 18px;
+	}
+
+	.principal p {
+		margin: 0 0 0px;
+	}
+
+	.apagar {
+		opacity: 0;
+		display: block;
+		display: none;
+	}
+
+	#inicio1 {
+		height: 80px;
+		width: 90%;
+		margin-top: -10px;
+	}
+
+	#barbers {
+		height: 220px;
+	}
+
+	#atendimento {
+		height: 250px;
+	}
+
+	.atendh {
+		font-size: 12px;
+	}
+
+	.atendp {
+		font-size: 13px;
+	}
+
+	#mapa {
+		height: 400px;
+	}
+
+	#inicio1 p, #mapa p {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	header {
+		height: 100px;
+	}
+
+	#logo {
+		width: 40%;
+		margin-top: 0px;
+		margin-left: -20px;
+	}
+
+	.nav-list {
+		display: none;
+	}
+
+	.nav-link {
+		font-size: 12px;
+	}
+
+	#pfts {
+		width: 55%;
+		float: none;
+	}
+
+	.titulo-principal {
+		font-size: 18px;
+	}
+
+	.principal p {
+		margin: 0 0 0px;
+	}
+
+	#inicio1 {
+		height: 500px;
+		text-align: center;
+	}
+
+	#mapa {
+		height: 300px;
+	}
+
+	.apagar {
+		opacity: 0;
+		display: block;
+		display: none;
+	}
+
+	#inicio1 p, #mapa p {
+		font-size: 12px;
+	}
+
+	#img-atend {
+		width: 100%;
+		display: none;
+	}
+
+	#atendimento li{
+		margin: 0 0 20px;
+		text-align: center;
+		
+	}
+	.lista-beneficios {
+		margin-left: 0px;
+		margin-top: 70px;
+		text-align: center;
+	}
+
+	.conteudo-beneficios {
+		display: block;
+	}
+
+	#atendimento {
+		height: 100px;
+	}
+
+}
+
+@media screen and (max-width: 350px) {
+	header {
+		height: 100px;
+	}
+
+	#logo {
+		width: 50%;
+		margin-top: 10px;
+		margin-left: -20px;
+	}
+
+	.nav-list {
+		display: none;
+	}
+
+	.nav-link {
+		font-size: 12px;
+	}
+
+	#pfts {
+		width: 55%;
+		float: none;
+	}
+
+	.titulo-principal {
+		font-size: 16px;
+	}
+
+	.principal p {
+		margin: 0 0 0px;
+	}
+
+	#inicio1 {
+		margin-top: -20px;
+		height: 350px;
+		text-align: center;
+	}
+
+	#mapa {
+		height: 250px;
+	}
+
+	.apagar {
+		opacity: 0;
+		display: block;
+		display: none;
+	}
+
+	#inicio1 p, #mapa p {
+		font-size: 10px;
+	}
+
+	#img-atend {
+		width: 100%;
+		display: none;
+	}
+
+	#atendimento li{
+		margin: 0 0 20px;
+		text-align: center;
+		
+	}
+	.lista-beneficios {
+		margin-left: 0px;
+		margin-top: 70px;
+		text-align: center;
+	}
+
+	.conteudo-beneficios {
+		display: block;
+	}
+
+	#atendimento {
+		height: 100px;
+	}
+
+}
+
+@media screen and (max-width: 300px) {
+	header {
+		height: 100px;
+	}
+
+	#logo {
+		width: 80%;
+		margin-top: 10px;
+		margin-left: -35px;
+	}
+
+	.nav-list {
+		display: none;
+	}
+
+	.nav-link {
+		font-size: 12px;
+	}
+
+	#pfts {
+		width: 55%;
+		float: none;
+	}
+
+	.titulo-principal {
+		font-size: 16px;
+	}
+
+	.principal p {
+		margin: 0 0 0px;
+	}
+
+	#inicio1 {
+		margin-top: -20px;
+		height: 350px;
+		text-align: center;
+	}
+
+	#mapa {
+		height: 150px;
+	}
+
+	.mapa-conteudo iframe {
+		height: 200px;
+	}
+
+	#mapaf {
+		width: 50%;
+	}
+
+	.apagar {
+		opacity: 0;
+		display: block;
+		display: none;
+	}
+
+	#inicio1 p, #mapa p {
+		font-size: 10px;
+	}
+
+	#img-atend {
+		width: 100%;
+		display: none;
+	}
+
+	#atendimento li{
+		margin: 0 0 20px;
+		text-align: center;
+		
+	}
+	.lista-beneficios {
+		margin-left: 0px;
+		margin-top: 70px;
+		text-align: center;
+	}
+
+	.conteudo-beneficios {
+		display: block;
+	}
+
+	#atendimento {
+		height: 100px;
+	}
+
+}
+
+@media screen and (max-width: 250px) {
+	header {
+		height: 100px;
+	}
+
+	#logo {
+		width: 1500%;
+		margin-top: 0px;
+		margin-left: -35px;
+	}
+
+	.nav-list {
+		display: none;
+	}
+
+	.nav-link {
+		font-size: 12px;
+	}
+
+	#pfts {
+		width: 55%;
+		float: none;
+	}
+
+	.titulo-principal {
+		font-size: 13px;
+	}
+
+	.principal p {
+		margin: 0 0 0px;
+	}
+
+	#inicio1 {
+		margin-top: -20px;
+		height: 300px;
+		text-align: center;
+	}
+
+	#mapa {
+		height: 150px;
+	}
+
+	.mapa-conteudo iframe {
+		height: 200px;
+	}
+
+	#mapaf {
+		width: 50%;
+	}
+
+	.apagar {
+		opacity: 0;
+		display: block;
+		display: none;
+	}
+
+	#inicio1 p, #mapa p {
+		font-size: 8px;
+	}
+
+	#img-atend {
+		width: 100%;
+		display: none;
+	}
+
+	#atendimento li{
+		margin: 0 0 20px;
+		text-align: center;
+		
+	}
+	.lista-beneficios {
+		margin-left: 0px;
+		margin-top: 70px;
+		text-align: center;
+	}
+
+	.conteudo-beneficios {
+		display: block;
+	}
+
+	#atendimento {
+		height: 100px;
+	}
+
+}
+
+@media screen and (max-width: 214px) {
+
+	header {
+		height: 100px;
+	}
+
+	#logo {
+		width: 1500%;
+		margin-top: 0px;
+		margin-left: -35px;
+	}
+
+	.nav-list {
+		display: none;
+	}
+
+	.nav-link {
+		font-size: 12px;
+	}
+
+	#pfts {
+		width: 55%;
+		float: none;
+	}
+
+	.titulo-principal {
+		font-size: 16px;
+	}
+
+	.principal p {
+		margin: 0 0 0px;
+	}
+
+	#inicio1 {
+		margin-top: -20px;
+		height: 350px;
+		text-align: center;
+	}
+
+	#mapa {
+		height: 150px;
+	}
+
+	.mapa-conteudo iframe {
+		height: 200px;
+	}
+
+	#mapaf {
+		width: 50%;
+	}
+
+	.apagar {
+		opacity: 0;
+		display: block;
+		display: none;
+	}
+
+	#inicio1 p, #mapa p {
+		font-size: 10px;
+	}
+
+	#img-atend {
+		width: 100%;
+		display: none;
+	}
+
+	#atendimento li{
+		margin: 0 0 20px;
+		text-align: center;
+		
+	}
+	.lista-beneficios {
+		margin-left: 0px;
+		margin-top: 70px;
+		text-align: center;
+	}
+
+	.conteudo-beneficios {
+		display: block;
+	}
+
+	#atendimento {
+		height: 100px;
+	}
+
+}
