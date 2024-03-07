@@ -1,13 +1,16 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	background: #fff;
+	font-style:initial;
 }
 
+
+
+/*CABECALHO INICIO*/
 header {
     background-color: #000;
     box-shadow: 0px 3px 10px #464646;
 	height: 250px;
-	border-radius: 1px ;
 }
 
 .nav-bar {
@@ -45,12 +48,19 @@ header {
     color: #fff;
     font-weight: 400;
 }
+/*CABECALHO FIM*/
+
+
+
+/*APRESENTACAO INICIO*/
+#inicio1 {
+	height: 600px;
+}
 
 .titulo-principal {
 	text-align: center;
 	font-size: 55px;
 	margin: 0 0 1em;
-	clear: left;
 	font-weight: bold;
 }
 
@@ -72,15 +82,20 @@ header {
 	border-radius: 3px;
 	transition: 1ms;
 }
+/*APRESENTACAO FIM*/
 
+
+
+/*MAPA INICIO*/
 #mapa p {
 	margin: 0 0 2em;
 	text-align: center;
 }
+/*MAPA FIM*/
 
 
-/* TESTE PRO CTT*/
 
+/*BARBEIROS INICIO*/
 #barbers {
 	width: 80%;
 }
@@ -99,16 +114,18 @@ header {
 }
 
 .galeriasfts {
-  	width: 80%;
+  	width: 60%;
     border-radius: 10px;
 }
 
 .nbarbers {
-	font-size: 60px;
+	font-size: 55px;
 }
+/*BARBEIROS FIM*/
 
-/* TESTE PRO CTT */
 
+
+/*ATENDIMENTO INICIO*/
 #atendimento {
 	height: 600px;
 }
@@ -140,84 +157,115 @@ header {
 	width: 35%;
 	float: right;
 	border-radius: 3px;
-	transition: 1ms;
 }
+/*ATENDIMENTO FIM*/
 
+
+
+/*RODAPE INICIO*/
 footer {
 	background: #000;
-	padding: 20px 0;
+	height: 250px;
 	box-shadow: 0px 3px 10px #464646;
 }
 
+.numctt {
+	color: #FFF;
+    text-align: right; 
+    margin-right: 250px;
+	margin-top: -50px;
+}
+
+#insta {
+	width: 2%;
+	float: right;
+ 	margin-right: 200px;
+	margin-top: -35px;
+}
+/*RODAPE FIM*/
+
+
+
+/*RESOLUCOES DE OUTRAS TELAS*/
 @media screen and (max-width: 1500px) {
+	header {
+		height: 150px;
+	}
 
 	#logo {
-		margin-top: 50px;
-		margin-left: 300px;
+		width: 10%;
+		margin-top: 10px;
+		margin-left: 200px;
+	}
+
+	#inicio1 {
+		height: 500px;
 	}
 
 	.nav-list {
-		margin-right: 200px;
+		margin-right: 300px;
+		margin-top: 15px;
+	}
+
+	.numctt {
+		margin-right: 100px;
+		margin-top: -20px;
+	}
+
+	#insta {
+		width: 3%;
+		margin-right: 55px;
+		margin-top: -35px;
+	}
+
+	footer {
+		height: 170px;
 	}
 }
 
 @media screen and (max-width: 1200px) {
-
 	#logo {
-		margin-top: 70px;
-		margin-left: 200px;
+		width: 13%;
+		margin-top: 20px;
+		margin-left: 100px;
 	}
-
 	.nav-list {
-		margin-right: 150px;
-		margin-top: 75px;
+		margin-right: 200px;
+		margin-top: 25px;
 	}
 }
 
-@media screen and (max-width: 1000px) {
-
-	#logo {
-		margin-top: 70px;
-		margin-left: 150px;
-	}
-
-	.nav-list {
-		margin-right: 100px;
-		margin-top: 75px;
-	}
-}
 
 @media screen and (max-width: 950px) {
-
 	#logo {
-		margin-top: 40px;
-		margin-left: 50px;
-		width: 30%;
+		width: 15%;
+		margin-top: 20px;
+		margin-left: 100px;
 	}
-
 	.nav-list {
-		margin-right: 50px;
-		margin-top: 55px;
-	}
-
-	.nav-link {
-		font-size: 18px;
+		margin-right: 100px;
+		margin-top: 25px;
 	}
 
 	.principal {
 		width: 80%;
 	}
 
-	.titulo-principal {
-		font-size: 35px;
+	.titulo-principal, #atendt {
+		font-size: 25px;
 	}
 
 	#inicio1 {
 		height: 350px;
+		margin-top: -50px;
 	}
 
 	#barbers {
-		height: 430px;
+		height: 530px;
+	}
+
+	#atendimento {
+		height: 450px;
 	}
 
 	#mapa {
@@ -228,56 +276,59 @@ footer {
 		font-size: 16px;
 	}
 
-	#atendimento {
-		height: 450px;
-	}
-
-	#atendt {
-		font-size: 35px;
-	}
-
 	.galeriasfts {
 		width: 90%;
   	}
 
-	.nbarbers {
+	.nbarbers, .atendp {
 		font-size: 20px;
-	}
-
-	.atendt, .atendh, .atendp {
-		text-align: center;
-	}
-
-	.atendp {
-		font-size: 20px
 	}
 
 	#precos {
 		margin-left: 30px;
 	}
+
+	.numctt {
+		margin-right: 80px;
+		margin-top: -40px;
+		font-size: 12px;
+	}
+
+	#insta {
+		margin-right: 45px;
+		margin-top: -25px;
+	}
 }
 
 @media screen and (max-width: 850px) {
+	header {
+		height: 100px;
+	}
 
 	#logo {
-		margin-top: 40px;
+		margin-top: 0px;
 		margin-left: 25px;
 	}
 
 	.nav-list {
-		margin-right: 25px;
+		margin-right: 105px;
+		margin-top: 0px;
 	}
 
-	.titulo-principal {
-		font-size: 25px;
+	#inicio1 p, #mapa p, .nav-link {
+		font-size: 14px;
+	}
+
+	.titulo-principal, #atendt, .atendp  {
+		font-size: 20px;
 	}
 
 	#inicio1 {
-		height: 300px;
+		height: 270px;
 	}
 
 	#barbers {
-		height: 400px;
+		height: 450px;
 	}
 
 	#atendimento {
@@ -292,25 +343,22 @@ footer {
 		font-size: 14px;
 	}
 
+	.numctt {
+		font-size: 10px;
+	}
+
+	footer {
+		height: 120px;
+	}
 }
 
 @media screen and (max-width: 768px) {
-
-	#logo {
-		margin-top: 40px;
-		margin-left: 25px;
-	}
-
 	.nav-list {
 		margin-right: 25px;
 	}
 
 	.nav-link {
 		font-size: 14px;
-	}
-
-	.titulo-principal {
-		font-size: 25px;
 	}
 
 	.principal p {
@@ -322,25 +370,30 @@ footer {
 		height: 300px;
 	}
 
-	#mapa {
-		height: 400px;
-	}
-
 	#inicio1 p, #mapa p {
 		font-size: 15px;
 	}
-	
+
+	.numctt {
+		margin-right: 60px;
+		margin-top: -30px;
+
+	}
+
+	#insta {
+		margin-right: 35px;
+		margin-top: -20px;
+	}
+
+	footer {
+		height: 120px;
+	}
 }
 
 @media screen and (max-width: 700px) {
 
-	#logo {
-		margin-top: 40px;
-		margin-left: 0px;
-	}
-
 	.nav-list {
-		margin-right: 25px;
+		margin-right: 65px;
 	}
 
 	.nav-link {
@@ -348,7 +401,7 @@ footer {
 	}
 
 	.titulo-principal {
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.principal p {
@@ -370,30 +423,19 @@ footer {
 	.atendh {
 		margin-bottom: 35px;
 	}
-	
 }
 
 @media screen and (max-width: 650px) {
-
-	header {
-		height: 200px;
-	}
-
 	#logo {
-		margin-top: 40px;
-		margin-left: 0px;
-	}
-
-	.nav-list {
-		margin-right: 0px;
+		width: 20%;
 	}
 
 	.nav-link {
 		font-size: 13px;
 	}
 
-	.titulo-principal {
-		font-size: 25px;
+	.titulo-principal, #atendt {
+		font-size: 20px;
 	}
 
 	.principal p {
@@ -409,68 +451,25 @@ footer {
 	}
 
 	#mapa {
-		height: 300px;
+		height: 350px;
 	}
 
-	#inicio1 p, #mapa p {
+	#inicio1 p, #mapa p, .atendh {
 		font-size: 12px;
-	}
-
-	.itens {
-		font-size: 10px;
-	}
-
-	#atendt {
-		font-size: 25px;
-	}
-
-	.atendh {
-		text-align: center;
-		font-size: 13;
-	}
-	
-	.atendp {
-		text-align: center;
-		font-size: 15px;
-		font-weight: bold;
-		
 	}
 	
 	#precos {
-		width:40%;
-		float: right;
-		border-radius: 3px;
-		transition: 1ms;
+		width: 50%;
 	}
 
+	.atendp {
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 600px) {
-
-	header {
-		height: 150px;
-	}
-
-	#logo {
-		width: 30%;
-		margin-top: 20px;
-		margin-left: 0px;
-	}
-
 	.nav-list {
-		display: none;
-	}
-
-	.nav-link {
-		font-size: 9px;
-	}
-
-	.titulo-principal {
-		font-size: 20px;
-	}
-
-	.principal p {
-		margin: 0 0 0px;
+		margin-right: 20px;
 	}
 
 	.apagar {
@@ -480,12 +479,12 @@ footer {
 	}
 
 	#inicio1 {
-		height: 150px;
+		height: 110px;
 		margin-top: -10px;
 	}
 
 	#barbers {
-		height: 270px;
+		height: 320px;
 	}
 
 	#atendimento {
@@ -504,26 +503,25 @@ footer {
 		font-size: 12px;
 	}
 
+	.numctt {
+		margin-right: 40px;
+		margin-top: -20px;
+	}
+
+	#insta {
+		margin-right: 20px;
+		width: 3.5%;
+	}
 }
 
 @media screen and (max-width: 520px) {
-
-	header {
-		height: 150px;
-	}
-
 	#logo {
 		width: 30%;
-		margin-top: 20px;
 		margin-left: 0px;
 	}
 
 	.nav-list {
-		display: none;
-	}
-
-	.nav-link {
-		font-size: 9px;
+		margin-right: 0px;
 	}
 
 	.titulo-principal, #atendt {
@@ -534,24 +532,22 @@ footer {
 		margin: 0 0 0px;
 	}
 
-	.apagar {
-		opacity: 0;
-		display: block;
-		display: none;
-	}
-
 	#inicio1 {
-		height: 100px;
+		height: 90px;
 		width: 90%;
 		margin-top: -10px;
 	}
 
 	#barbers {
-		height: 220px;
+		height: 290px;
+	}
+
+	.barbeirosc {
+		margin-top: -20px;
 	}
 
 	#atendimento {
-		height: 250px;
+		height: 340px;
 	}
 
 	.atendh {
@@ -569,27 +565,15 @@ footer {
 	#inicio1 p, #mapa p {
 		font-size: 12px;
 	}
-
 }
 
 @media screen and (max-width: 450px) {
-
-	header {
-		height: 100px;
-	}
-
 	#logo {
-		width: 30%;
-		margin-top: 20px;
-		margin-left: 0px;
+		width: 35%;
 	}
 
 	.nav-list {
-		display: none;
-	}
-
-	.nav-link {
-		font-size: 9px;
+		margin-right: -10px;
 	}
 
 	.titulo-principal, #atendt {
@@ -600,14 +584,8 @@ footer {
 		margin: 0 0 0px;
 	}
 
-	.apagar {
-		opacity: 0;
-		display: block;
-		display: none;
-	}
-
 	#inicio1 {
-		height: 80px;
+		height: 60px;
 		width: 90%;
 		margin-top: -10px;
 	}
@@ -617,19 +595,30 @@ footer {
 	}
 
 	#atendimento {
-		height: 250px;
+		height: 260px;
+	}
+
+	#atendt {
+		margin-bottom: -20px;
 	}
 
 	.atendh {
-		font-size: 12px;
+		font-size: 10px;
+		margin-bottom: 20px;
 	}
 
 	.atendp {
 		font-size: 13px;
+		margin-bottom: -20px;
+	}
+
+	#precos {
+		width: 55%;
+		margin-right: -20px;
 	}
 
 	#mapa {
-		height: 400px;
+		height: 350px;
 	}
 
 	#inicio1 p, #mapa p {
@@ -638,415 +627,340 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-	header {
-		height: 100px;
+	header, footer {
+		height: 80px;
 	}
-
 	#logo {
-		width: 40%;
-		margin-top: 0px;
-		margin-left: -20px;
+		margin-left: -25px;
+		margin-top: -10px;
 	}
-
-	.nav-list {
-		display: none;
-	}
-
 	.nav-link {
-		font-size: 12px;
+		margin-right: -20px;
 	}
-
-	#pfts {
-		width: 55%;
-		float: none;
-	}
-
-	.titulo-principal {
-		font-size: 18px;
+	
+	.titulo-principal, #atendt, .nbarbers {
+		font-size: 15px;
 	}
 
 	.principal p {
-		margin: 0 0 0px;
+		margin-top: -15px;
+	}
+
+	#pfts {
+		margin-right: 10px;
 	}
 
 	#inicio1 {
-		height: 500px;
-		text-align: center;
+		height: 25px;
+		margin-top: -20px;
+	}
+
+	#barbers {
+		width: 90%;
+		height: 230px;
+	}
+
+	.barbeirosc {
+		margin-top: -20px;
+	}
+
+	.galeriasfts {
+		width: 95%;
+	}
+
+	#atendimento {
+		height: 220px;
+	}
+
+	#atendt {
+		margin-top: -50px;
+	}
+
+	.atendh {
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+
+	.atendp {
+		font-size: 12px;
+		margin-bottom: -20px;
 	}
 
 	#mapa {
 		height: 300px;
 	}
 
-	.apagar {
-		opacity: 0;
-		display: block;
+	#inicio1 p, #mapa p, .atendh {
+		font-size: 10px;
+	}
+
+	.atendh {
+		margin-bottom: 25px;
+	}
+
+	.numctt, #insta {
 		display: none;
 	}
-
-	#inicio1 p, #mapa p {
-		font-size: 12px;
-	}
-
-	#img-atend {
-		width: 100%;
-		display: none;
-	}
-
-	#atendimento li{
-		margin: 0 0 20px;
-		text-align: center;
-		
-	}
-	.lista-beneficios {
-		margin-left: 0px;
-		margin-top: 70px;
-		text-align: center;
-	}
-
-	.conteudo-beneficios {
-		display: block;
-	}
-
-	#atendimento {
-		height: 100px;
-	}
-
 }
 
 @media screen and (max-width: 350px) {
 	header {
-		height: 100px;
+		height: 75px;
 	}
 
 	#logo {
-		width: 50%;
-		margin-top: 10px;
-		margin-left: -20px;
-	}
-
-	.nav-list {
-		display: none;
-	}
-
-	.nav-link {
-		font-size: 12px;
-	}
-
-	#pfts {
-		width: 55%;
-		float: none;
-	}
-
-	.titulo-principal {
-		font-size: 16px;
-	}
-
-	.principal p {
-		margin: 0 0 0px;
-	}
-
-	#inicio1 {
-		margin-top: -20px;
-		height: 350px;
-		text-align: center;
-	}
-
-	#mapa {
-		height: 250px;
-	}
-
-	.apagar {
-		opacity: 0;
-		display: block;
-		display: none;
-	}
-
-	#inicio1 p, #mapa p {
-		font-size: 10px;
-	}
-
-	#img-atend {
-		width: 100%;
-		display: none;
-	}
-
-	#atendimento li{
-		margin: 0 0 20px;
-		text-align: center;
-		
-	}
-	.lista-beneficios {
-		margin-left: 0px;
-		margin-top: 70px;
-		text-align: center;
-	}
-
-	.conteudo-beneficios {
-		display: block;
-	}
-
-	#atendimento {
-		height: 100px;
-	}
-
-}
-
-@media screen and (max-width: 300px) {
-	header {
-		height: 100px;
-	}
-
-	#logo {
-		width: 80%;
-		margin-top: 10px;
-		margin-left: -35px;
-	}
-
-	.nav-list {
-		display: none;
-	}
-
-	.nav-link {
-		font-size: 12px;
-	}
-
-	#pfts {
-		width: 55%;
-		float: none;
-	}
-
-	.titulo-principal {
-		font-size: 16px;
-	}
-
-	.principal p {
-		margin: 0 0 0px;
-	}
-
-	#inicio1 {
-		margin-top: -20px;
-		height: 350px;
-		text-align: center;
-	}
-
-	#mapa {
-		height: 150px;
-	}
-
-	.mapa-conteudo iframe {
-		height: 200px;
-	}
-
-	#mapaf {
+		margin-left: -45px;
+		margin-top: -10px;
 		width: 50%;
 	}
 
-	.apagar {
-		opacity: 0;
-		display: block;
-		display: none;
-	}
-
-	#inicio1 p, #mapa p {
+	.nav-link {
 		font-size: 10px;
 	}
-
-	#img-atend {
-		width: 100%;
-		display: none;
-	}
-
-	#atendimento li{
-		margin: 0 0 20px;
-		text-align: center;
-		
-	}
-	.lista-beneficios {
-		margin-left: 0px;
-		margin-top: 70px;
-		text-align: center;
-	}
-
-	.conteudo-beneficios {
-		display: block;
-	}
-
-	#atendimento {
-		height: 100px;
-	}
-
-}
-
-@media screen and (max-width: 250px) {
-	header {
-		height: 100px;
-	}
-
-	#logo {
-		width: 1500%;
-		margin-top: 0px;
-		margin-left: -35px;
-	}
-
-	.nav-list {
-		display: none;
-	}
-
-	.nav-link {
-		font-size: 12px;
-	}
-
-	#pfts {
-		width: 55%;
-		float: none;
-	}
-
-	.titulo-principal {
+	
+	.titulo-principal, #atendt, .nbarbers {
 		font-size: 13px;
 	}
 
 	.principal p {
-		margin: 0 0 0px;
-	}
-
-	#inicio1 {
-		margin-top: -20px;
-		height: 300px;
-		text-align: center;
-	}
-
-	#mapa {
-		height: 150px;
-	}
-
-	.mapa-conteudo iframe {
-		height: 200px;
-	}
-
-	#mapaf {
-		width: 50%;
-	}
-
-	.apagar {
-		opacity: 0;
-		display: block;
-		display: none;
-	}
-
-	#inicio1 p, #mapa p {
-		font-size: 8px;
-	}
-
-	#img-atend {
-		width: 100%;
-		display: none;
-	}
-
-	#atendimento li{
-		margin: 0 0 20px;
-		text-align: center;
-		
-	}
-	.lista-beneficios {
-		margin-left: 0px;
-		margin-top: 70px;
-		text-align: center;
-	}
-
-	.conteudo-beneficios {
-		display: block;
-	}
-
-	#atendimento {
-		height: 100px;
-	}
-
-}
-
-@media screen and (max-width: 214px) {
-
-	header {
-		height: 100px;
-	}
-
-	#logo {
-		width: 1500%;
-		margin-top: 0px;
-		margin-left: -35px;
-	}
-
-	.nav-list {
-		display: none;
-	}
-
-	.nav-link {
-		font-size: 12px;
+		margin-top: -15px;
+		font-weight: bold;
 	}
 
 	#pfts {
-		width: 55%;
-		float: none;
-	}
-
-	.titulo-principal {
-		font-size: 16px;
-	}
-
-	.principal p {
-		margin: 0 0 0px;
+		margin-right: 10px;
+		width: 40%;
 	}
 
 	#inicio1 {
+		width: 95%;
+		height: 15px;
 		margin-top: -20px;
-		height: 350px;
-		text-align: center;
 	}
 
-	#mapa {
-		height: 150px;
+	#barbers {
+		width: 95%;
+		height: 180px;
 	}
 
-	.mapa-conteudo iframe {
-		height: 200px;
+	.barbeirosc {
+		margin-top: -35px;
 	}
 
-	#mapaf {
-		width: 50%;
-	}
-
-	.apagar {
-		opacity: 0;
-		display: block;
-		display: none;
-	}
-
-	#inicio1 p, #mapa p {
-		font-size: 10px;
-	}
-
-	#img-atend {
-		width: 100%;
-		display: none;
-	}
-
-	#atendimento li{
-		margin: 0 0 20px;
-		text-align: center;
-		
-	}
-	.lista-beneficios {
-		margin-left: 0px;
-		margin-top: 70px;
-		text-align: center;
-	}
-
-	.conteudo-beneficios {
-		display: block;
+	.galeriasfts {
+		width: 95%;
 	}
 
 	#atendimento {
-		height: 100px;
+		height: 180px;
 	}
 
+	#atendt {
+		margin-top: -50px;
+	}
+
+	.atendh {
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+
+	.atendp {
+		font-size: 12px;
+		margin-bottom: -20px;
+	}
+
+	#mapa {
+		height: 300px;
+	}
+
+	#inicio1 p, #mapa p, .atendh {
+		font-size: 9.1px;
+	}
+
+	.atendh {
+		margin-bottom: 25px;
+	}
+
+	footer {
+		height: 100px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	header {
+		height: 75px;
+	}
+
+	#logo {
+		width: 75%;
+	}
+
+	.nav-link {
+		font-size: 10px;
+	}
+	
+	.titulo-principal, #atendt, .nbarbers {
+		font-size: 11px;
+	}
+
+	.principal p {
+		margin-top: -15px;
+		font-weight: bold;
+	}
+
+	#pfts {
+		margin-right: 10px;
+		width: 40%;
+	}
+
+	#inicio1 {
+		width: 95%;
+		height: 3px;
+		margin-top: -20px;
+	}
+
+	#barbers {
+		width: 95%;
+		height: 150px;
+	}
+
+	.barbeirosc {
+		margin-top: -35px;
+	}
+
+	.galeriasfts {
+		width: 95%;
+	}
+
+	#atendimento {
+		height: 180px;
+	}
+
+	#precos {
+		width: 60%;
+		margin-left: 10px;
+	}
+
+	#atendt {
+		margin-top: -50px;
+	}
+
+	.atendh {
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+
+	.atendp {
+		font-size: 9px;
+		margin-bottom: -20px;
+	}
+
+	#mapa {
+		height: 300px;
+	}
+
+	#inicio1 p, #mapa p, .atendh {
+		font-size: 7.5px;
+	}
+
+	.atendh {
+		margin-bottom: 25px;
+	}
+
+	.nav-bar {
+		margin-bottom: 0px;
+	}
+}
+
+@media screen and (max-width: 250px) {
+	header {
+		height: 65px;
+	}
+
+	#logo {
+		width: 120%;
+		margin-left: -50px;
+	}
+
+	.nav-link {
+		font-size: 10px;
+	}
+
+	.nav-list {
+		margin-top: 0px;
+		margin-right: -20px;
+	}
+	
+	.titulo-principal, #atendt, .nbarbers {
+		font-size: 11px;
+	}
+
+	.principal p {
+		margin-top: -15px;
+		font-weight: bold;
+	}
+
+	#pfts {
+		margin-right: 5px;
+		margin-bottom: 5px;
+		width: 40%;
+	}
+
+	#inicio1 {
+		width: 95%;
+		height: 3px;
+		margin-top: -30px;
+	}
+
+	#barbers {
+		width: 95%;
+		height: 150px;
+	}
+
+	.barbeirosc {
+		margin-top: -35px;
+	}
+
+	.galeriasfts {
+		width: 95%;
+	}
+
+	#atendimento {
+		height: 180px;
+	}
+
+	#precos {
+		width: 60%;
+		margin-left: 10px;
+	}
+
+	#atendt {
+		margin-top: -50px;
+	}
+
+	.atendh {
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+
+	.atendp {
+		font-size: 9px;
+		margin-bottom: -20px;
+	}
+
+	#mapa {
+		height: 300px;
+	}
+
+	#inicio1 p, #mapa p, .atendh {
+		font-size: 7.5px;
+	}
+
+	.atendh {
+		margin-bottom: 25px;
+	}
+
+	.nav-bar {
+		margin-bottom: 0px;
+	}
 }
