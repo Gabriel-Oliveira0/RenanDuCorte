@@ -186,6 +186,33 @@ footer {
 
 
 
+/*GALERIA INICIO*/
+
+#aprgaleria {
+	width: 80%;
+}
+
+.imgaleria {
+	margin-top: 100px;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imgaleria li {
+	flex-basis: calc(33.33% - 10px);
+    margin-bottom: 10px;
+}
+
+.album {
+	width: 100%;
+	border-radius: 10px;
+}
+
+/*GALERIA FIM*/
+
+
+
 /*RESOLUCOES DE OUTRAS TELAS*/
 @media screen and (max-width: 1500px) {
 	header {
@@ -214,12 +241,12 @@ footer {
 
 	#insta {
 		width: 3%;
-		margin-right: 55px;
+		margin-right: 50px;
 		margin-top: -35px;
 	}
 
 	footer {
-		height: 170px;
+		height: 180px;
 	}
 }
 
@@ -233,8 +260,11 @@ footer {
 		margin-right: 200px;
 		margin-top: 25px;
 	}
-}
 
+	.galeriasfts {
+		width: 90%;
+	}
+}
 
 @media screen and (max-width: 950px) {
 	#logo {
@@ -298,6 +328,15 @@ footer {
 		margin-right: 45px;
 		margin-top: -25px;
 	}
+
+	#aprgaleria {
+		margin-top: -40px;
+	}
+
+	#galetxt {
+		margin-bottom: -20px;
+	}
+
 }
 
 @media screen and (max-width: 850px) {
@@ -367,7 +406,7 @@ footer {
 	}
 
 	#inicio1 {
-		height: 300px;
+		height: 250px;
 	}
 
 	#inicio1 p, #mapa p {
@@ -387,6 +426,10 @@ footer {
 
 	footer {
 		height: 120px;
+	}
+
+	#galetxt {
+		margin-bottom: -50px;
 	}
 }
 
@@ -423,6 +466,11 @@ footer {
 	.atendh {
 		margin-bottom: 35px;
 	}
+
+	.imgaleria li {
+		flex-basis: calc(50% - 10px);
+		margin-bottom: 10px;
+	}
 }
 
 @media screen and (max-width: 650px) {
@@ -447,7 +495,11 @@ footer {
 	}
 
 	#barbers {
-		height: 350px;
+		height: 370px;
+	}
+
+	#atendimento {
+		height: 430px;
 	}
 
 	#mapa {
@@ -464,6 +516,14 @@ footer {
 
 	.atendp {
 		font-size: 14px;
+	}
+
+	.numctt, #insta {
+		display: none;
+	}
+
+	#aprgaleria {
+		width: 90%;
 	}
 }
 
@@ -484,11 +544,11 @@ footer {
 	}
 
 	#barbers {
-		height: 320px;
+		height: 350px;
 	}
 
 	#atendimento {
-		height: 320px;
+		height: 380px;
 	}
 
 	.atendh {
@@ -559,7 +619,7 @@ footer {
 	}
 
 	#mapa {
-		height: 400px;
+		height: 380px;
 	}
 
 	#inicio1 p, #mapa p {
@@ -580,8 +640,12 @@ footer {
 		font-size: 18px;
 	}
 
+	#pfts {
+		margin-right: 9px;
+	}
+
 	.principal p {
-		margin: 0 0 0px;
+		margin-top: -15px;
 	}
 
 	#inicio1 {
@@ -591,11 +655,11 @@ footer {
 	}
 
 	#barbers {
-		height: 220px;
+		height: 260px;
 	}
 
 	#atendimento {
-		height: 260px;
+		height: 300px;
 	}
 
 	#atendt {
@@ -622,12 +686,12 @@ footer {
 	}
 
 	#inicio1 p, #mapa p {
-		font-size: 10px;
+		font-size: 11.5px;
 	}
 }
 
 @media screen and (max-width: 400px) {
-	header, footer {
+	header {
 		height: 80px;
 	}
 	#logo {
@@ -651,13 +715,13 @@ footer {
 	}
 
 	#inicio1 {
-		height: 25px;
+		height: 35px;
 		margin-top: -20px;
 	}
 
 	#barbers {
 		width: 90%;
-		height: 230px;
+		height: 250px;
 	}
 
 	.barbeirosc {
@@ -669,7 +733,7 @@ footer {
 	}
 
 	#atendimento {
-		height: 220px;
+		height: 250px;
 	}
 
 	#atendt {
@@ -698,8 +762,18 @@ footer {
 		margin-bottom: 25px;
 	}
 
-	.numctt, #insta {
-		display: none;
+	#aprgaleria {
+		margin-top: -50px;
+		width: 60%;
+	}
+
+	.album {
+		width: 100%;
+	}
+
+	.imgaleria li {
+		flex-basis: calc(100%);
+		margin-bottom: 10px;
 	}
 }
 
@@ -734,13 +808,13 @@ footer {
 
 	#inicio1 {
 		width: 95%;
-		height: 15px;
+		height: 35px;
 		margin-top: -20px;
 	}
 
 	#barbers {
 		width: 95%;
-		height: 180px;
+		height: 220px;
 	}
 
 	.barbeirosc {
@@ -752,7 +826,7 @@ footer {
 	}
 
 	#atendimento {
-		height: 180px;
+		height: 220px;
 	}
 
 	#atendt {
@@ -821,7 +895,7 @@ footer {
 
 	#barbers {
 		width: 95%;
-		height: 150px;
+		height: 170px;
 	}
 
 	.barbeirosc {
@@ -833,7 +907,7 @@ footer {
 	}
 
 	#atendimento {
-		height: 180px;
+		height: 200px;
 	}
 
 	#precos {
@@ -869,6 +943,10 @@ footer {
 
 	.nav-bar {
 		margin-bottom: 0px;
+	}
+
+	#aprgaleria {
+		width: 70%;
 	}
 }
 
